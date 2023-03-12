@@ -20,7 +20,7 @@ Anomaly detection has a wide range of applications in different industries. This
 
 There are various anomaly types but generally can be summarized as follows:
 
-- `Point Anomalies`: It is the simplest form, anomalies are observations that do not conform to the rest of the dataset. For instance, in fraud detection, an observation that shows significantly higher expenditure compared to the rest of the payments may be treated as an anomaly.
+- `Point Anomalies`: It is the simplest form of anomalies. Anomalies are observations that do not conform to the rest of the dataset. For instance, in fraud detection, an observation that shows significantly higher expenditure compared to the rest of the payments may be treated as an anomaly.
 
 - `Contextual Anomalies`: Context anomalies, also referred to as conditional anomalies, are data points that are abnormal when compared to the meta-information associated with them. For instance, if the average expenditure of a person is typically $100, but during Christmas time, it jumps to $1000 every year, then such observations may be treated as context anomalies.
 
@@ -36,7 +36,7 @@ There are many anomaly detection techniques in literature. Most commonly used on
 
 - `Semi-supervised Anomaly Detection`: Train dataset only includes normal labels. Model learns the single class pattern, and the observations assigned as anomalies which has non-similar patterns that is learnt by model. 
 
-- `Statistical Anomaly Detection`: Normal observations located on the high probability region. In contrary, abnormal observations inside the low probability region. Deviation from the mean and median can be used to detect anomalies.
+- `Statistical Anomaly Detection`: Unkike the abnormal observations, normal observations located on the high probability region. Therefore, deviation from the mean and median can be used to detect anomalies.
 
 - `Regression-based Anomaly Detection`: Robust regression techniques can be used to fit the data. Once the model is fit, absolute residuals can be used as anomaly scores. Top-k highest residuals (or thresholds) can be used to detect anomalies.
 
