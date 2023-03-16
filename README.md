@@ -16,6 +16,8 @@ Anomaly detection has a wide range of applications in different industries. This
 
 - `Healthcare`: identifying unusual patterns in patient data or medical imaging that may indicate potential health issues
 
+![ensemble-architecture](./images/application_areas.PNG)
+
 ### Anomaly Types
 
 There are various anomaly types but generally can be summarized as follows:
@@ -24,7 +26,9 @@ There are various anomaly types but generally can be summarized as follows:
 
 - `Contextual Anomalies`: Context anomalies, also referred to as conditional anomalies, are data points that are abnormal when compared to the meta-information associated with them. For instance, if the average expenditure of a person is typically $100, but during Christmas time, it jumps to $1000 every year, then such observations may be treated as context anomalies.
 
-- `Collective Anomalies`: A sample may not be anomaly, but a sequence of observations may be anomalos event together. 
+- `Collective Anomalies`: A sample may not be anomaly, but a sequence of observations may be anomalos event together.
+
+![ensemble-architecture](./images/anomaly_types.PNG)
 
 ### Anomaly Detection Techniques
 
@@ -39,6 +43,10 @@ There are many anomaly detection techniques in literature. Most commonly used on
 - `Statistical Anomaly Detection`: Unkike the abnormal observations, normal observations located on the high probability region. Therefore, deviation from the mean and median can be used to detect anomalies.
 
 - `Regression-based Anomaly Detection`: Robust regression techniques can be used to fit the data. Once the model is fit, absolute residuals can be used as anomaly scores. Top-k highest residuals (or thresholds) can be used to detect anomalies.
+
+![ensemble-architecture](./images/anomaly_detection_techniques.PNG)
+
+![ensemble-architecture](./images/anomaly_detection_techniques_2.PNG)
 
 ### Output of the Anomaly Detection
 
