@@ -54,3 +54,4 @@ There are many anomaly detection techniques in literature. Most commonly used on
 
 - `Scores`: Instead of crisp labels, degree of anomaliness can be used to identify anomalies. The scores can be calculated in many ways. Deviation from the average value can be used as a score for each observation. In addition, in supervised anomaly detection, the probability of belonging the normal class can also be a anomaly score.
 
+![ensemble-architecture](./images/anomaly_output.PNG)
